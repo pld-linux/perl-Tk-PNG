@@ -29,7 +29,7 @@ obrazu Photo.
 #rm -f jpeg/Makefile.PL
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install

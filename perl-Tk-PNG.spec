@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (requires working $DISPLAY)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tk
-%define	pnam	PNG
+%define		pdir	Tk
+%define		pnam	PNG
 Summary:	Tk::PNG Perl module - PNG loader for Tk::Photo
 Summary(pl):	Modu³ Perla Tk::PNG - obs³uga plików PNG dla Tk::Photo
 Name:		perl-Tk-PNG

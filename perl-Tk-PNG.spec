@@ -9,6 +9,7 @@ Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	fe66f970f97775f405db0604a52892cb
 BuildRequires:	libpng-devel
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Tk >= 800.005

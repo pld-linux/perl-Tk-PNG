@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_with	tests	# perform "make test" (requires working $DISPLAY)
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Tk
 %define		pnam	PNG
@@ -6,7 +10,8 @@ Summary(pl):	Modu³ Perla Tk::PNG - obs³uga plików PNG dla Tk::Photo
 Name:		perl-Tk-PNG
 Version:	2.005
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fe66f970f97775f405db0604a52892cb
@@ -32,7 +37,10 @@ obrazu Photo.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-%{__make} OPTIMIZE="%{rpmcflags}"
+%{__make} \
+	OPTIMIZE="%{rpmcflags}"
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT

@@ -9,7 +9,7 @@ Summary:	Tk::PNG Perl module - PNG loader for Tk::Photo
 Summary(pl):	Modu³ Perla Tk::PNG - obs³uga plików PNG dla Tk::Photo
 Name:		perl-Tk-PNG
 Version:	2.005
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

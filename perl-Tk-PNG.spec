@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	fe66f970f97775f405db0604a52892cb
 BuildRequires:	libpng-devel
 BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	perl-Tk >= 800.005
+BuildRequires:	perl-Tk-devel >= 800.005
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

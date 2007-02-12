@@ -6,7 +6,7 @@
 %define		pdir	Tk
 %define		pnam	PNG
 Summary:	Tk::PNG Perl module - PNG loader for Tk::Photo
-Summary(pl):	Modu≥ Perla Tk::PNG - obs≥uga plikÛw PNG dla Tk::Photo
+Summary(pl.UTF-8):   Modu≈Ç Perla Tk::PNG - obs≈Çuga plik√≥w PNG dla Tk::Photo
 Name:		perl-Tk-PNG
 Version:	2.005
 Release:	3
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tk::PNG Perl extension which supplies PNG format loader for Photo
 image type.
 
-%description -l pl
-Rozszerzenie Perla Tk::PNG pozwalaj±ce na odczyt plikÛw PNG do typu
+%description -l pl.UTF-8
+Rozszerzenie Perla Tk::PNG pozwalajƒÖce na odczyt plik√≥w PNG do typu
 obrazu Photo.
 
 %prep

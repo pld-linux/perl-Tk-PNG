@@ -6,7 +6,7 @@
 %define		pdir	Tk
 %define		pnam	PNG
 Summary:	Tk::PNG Perl module - PNG loader for Tk::Photo
-Summary(pl.UTF-8):   Moduł Perla Tk::PNG - obsługa plików PNG dla Tk::Photo
+Summary(pl.UTF-8):	Moduł Perla Tk::PNG - obsługa plików PNG dla Tk::Photo
 Name:		perl-Tk-PNG
 Version:	2.005
 Release:	3

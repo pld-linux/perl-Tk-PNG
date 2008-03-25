@@ -13,8 +13,9 @@ Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Tk/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fe66f970f97775f405db0604a52892cb
+URL:		http://search.cpan.org/dist/Tk-PNG/
 BuildRequires:	libpng-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Tk-devel >= 800.005
@@ -31,8 +32,6 @@ obrazu Photo.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-#%patch -p1
-#rm -f jpeg/Makefile.PL
 
 %build
 %{__perl} Makefile.PL \

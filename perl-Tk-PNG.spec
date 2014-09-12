@@ -56,6 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorarch}/Tk/PNG.pm
 %dir %{perl_vendorarch}/auto/Tk/PNG
-%{perl_vendorarch}/auto/Tk/PNG/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Tk/PNG/*.so
 %{_mandir}/man3/*
